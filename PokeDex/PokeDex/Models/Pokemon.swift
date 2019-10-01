@@ -8,6 +8,7 @@
 
 import Foundation
 
+// Codable allows us to avoid writing our own failable init
 struct Pokemon: Decodable {
     
     // Make sure CodingKeys is plural and CodingKey is singular
